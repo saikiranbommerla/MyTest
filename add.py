@@ -13,7 +13,6 @@ def addition():
 	print("Subtraction is: ", b)
 	print("Division is: ", c)
 	print("Modulor is: ", d)
-	#print ("Hi")
 	
 def main():
 	addition()
