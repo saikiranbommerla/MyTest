@@ -1,0 +1,11 @@
+groups:
+- name: AllInstances
+  rules:
+  - alert: SyntheticMonitoringStatus
+    expr:  up == 0    #place the correct expr for syynthetic monitoring.
+    for: 5m
+    labels:
+      severity: warning
+    annotations:
+      summary: "Synthetic monitoring status"
+      description: "The instance is down"
