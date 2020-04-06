@@ -8,8 +8,8 @@ def addition():
 	c=y/x
 	d=y%x
 	
-	print("Addition is: ", z)
-	print("Multiplication is: ", a)
+	print("Addition is : ", z)
+	print("Multiplication is : ", a)
 	print("Subtraction is: ", b)
 	print("Division is: ", c)
 	print("Modulor is: ", d)
